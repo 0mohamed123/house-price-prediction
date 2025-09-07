@@ -26,8 +26,17 @@ This project predicts house sale prices based on various features using XGBoost 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/house-price-prediction.git
+git clone https://github.com/0mohamed123/house-price-prediction.git
 cd house-price-prediction
+```
+2. Install dependencies:
+```bash
+pip install NumPy Pandas XGBoost Scikit-learn Gradio
+```
+3. Run the Gradio interface:
+```bash
+python app.py
+```
 
 ## Model
 - Model Type: XGBoost Regressor
@@ -45,10 +54,15 @@ cd house-price-prediction
 ## Project Structure
 
 house-price-prediction/
+
 ├─ train_model.py
+
 ├─ predict_ui.py
+
 ├─ models/house_price_model.pkl
+
 ├─ data/
+
 └─ README.md
 
 ## License
